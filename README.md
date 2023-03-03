@@ -4,4 +4,4 @@
 
 # Mall
 ### 基于JavaWeb的购物商城  
-[link](../Mall/README.md)
+[Mall项目说明](https://github.com/LJJJJJQ/University/blob/main/Mall/README.md)
