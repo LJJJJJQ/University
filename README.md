@@ -4,4 +4,4 @@
 
 # Mall
 ### 基于JavaWeb的购物商城  
-[link](www.baidu.com)
+[link](../Mall/README.md)
