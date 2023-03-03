@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 隐藏body的滚动条 */
+body::-webkit-scrollbar{
+    display: none;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    /*background-color: #eff6d7;*/
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #eff6d7;*/
+    padding: 10px 50px;
+    /*box-shadow: 2px 2px 5px gray;*/
+    border-bottom: 2px solid black;
+}
+
+#icon{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#icon a{
+    text-decoration: none;
+    margin: 10px 20px;
+    color: black;
+}
+article{
+    height: 100%;
+    padding: 50px;
+}
+
+#all{
+    width: 1070px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto auto;
+}
+
+.good{
+    width: 200px;
+    height: 400px;
+    box-shadow: 2px 2px 5px gray;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.good img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+}
+
+
+/* 购物样式 */
+#buy{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -100px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.good:hover #buy{
+    transform: translateY(-100px);
+    transition: 1s;
+}

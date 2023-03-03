@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+#fo{
+    width: 20%;
+    margin: 10% auto;
+}
